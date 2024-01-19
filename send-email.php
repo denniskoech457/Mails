@@ -19,7 +19,7 @@
     $mail->Port = 465; // or 587
     $mail->IsHTML(true);
     $mail->Username = "notifications@infinityairtimexchange.com";
-    $mail->Password = "&14F=k8{z45X";
+    $mail->Password = "your password";
     $mail->SetFrom('notifications@infinityairtimexchange.com','Infinity Website Notifications');
     $mail->addReplyTo("$email");
     $mail->Subject = "Contact Subject: $subject";
